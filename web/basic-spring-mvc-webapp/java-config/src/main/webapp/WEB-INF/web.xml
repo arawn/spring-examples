@@ -1,0 +1,14 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="false"
+         version="3.0">
+
+    <display-name>Spring Examples</display-name>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/page-not-found</location>
+    </error-page>
+
+</web-app>
