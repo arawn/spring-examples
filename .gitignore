@@ -6,3 +6,6 @@
 
 # maven files
 target
+
+# etc
+.DS_Store
