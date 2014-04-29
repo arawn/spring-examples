@@ -72,9 +72,9 @@ public DataSourceInitializer dataSourceInitializer(DataSource dataSource) {
 }
 ```
 
-`DataSourceInitializer.setDatabaseCleaner(DatabasePopulator)`를 넣어두면 빈 컨테이너가 종료될때 데이터베이스를 정리합니다.
+`DataSourceInitializer.setDatabaseCleaner(DatabasePopulator)`를 넣어두면 빈 컨테이너가 종료될때 데이터베이스를 정리한다.
 
-DataSourceInitializer를 생성하는 방법이 복잡하다면 FactoryBean을 사용해 생성 로직을 숨기고 재사용하는 방법도 있습니다.
+DataSourceInitializer를 생성하는 방법이 복잡하다면 FactoryBean을 사용해 생성 로직을 숨기고 재사용 할 수도 있다.
 
 ```java
 @Bean
